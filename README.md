@@ -129,20 +129,4 @@ npm run generate
 - Products, transaction IDs, categories, and brands also use local browser storage for persistence.
 - Customer and billing pages require a bearer token from local storage.
 
-## Cover Picture Prompt Ideas
 
-1. A modern ecommerce admin dashboard displayed on a wide desktop monitor, showing product cards, sales analytics, orders, customer metrics, billing status, and a clean left sidebar navigation; polished SaaS interface, white and slate UI with blue accents, realistic workspace lighting, high-detail product management theme, 16:9 cover image.
-
-2. A premium merchant operations control center for an online store, with charts, invoice builder, coupon manager, customer table, payment cards, and a lucky spin reward widget arranged across multiple floating dashboard screens; professional fintech ecommerce style, crisp Tailwind-inspired UI, vibrant but balanced colors, 16:9.
-
-3. A sleek Nuxt Vue admin panel visual concept, laptop screen showing an ecommerce dashboard with sales pie chart, transaction IDs, QR shop profile, products, orders, and billing approval workflow; clean modern glass-and-paper interface, realistic depth, high-resolution web app cover art, no readable private data.
-
-4. A Bangladesh-focused online shop management dashboard cover, featuring an admin interface with shop logo upload, customer management, mobile payment reporting, order tracking, and invoice tools; practical business software aesthetic, bright office environment, blue and green accents, professional 16:9 GitHub README banner.
-
-## Recommended Next Improvements
-
-- Move all API URLs into one environment-based API client.
-- Replace duplicated sidebar/menu arrays with a single shared navigation module.
-- Remove console logging of tokens and sensitive auth state.
-- Add form validation and API error display consistency across modules.
-- Add automated linting, type checking, and smoke tests for protected routes.
